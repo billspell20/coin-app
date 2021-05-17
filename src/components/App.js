@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+import React, { useState } from "react";
 import './App.css';
+import Footer from './Footer.jsx';
+import Header from './Header.jsx';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Header />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          
         </p>
         <a
           className="App-link"
@@ -17,7 +19,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      <Footer />
     </div>
   );
 }
