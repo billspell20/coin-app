@@ -7,18 +7,18 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          
-        </p>
+      <br/>
+      <div id="wrapper">
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xae8cb2db90fb3bb3da5dd33a6dfb89a7ef3860d9"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Buy BabaBooey Coin
         </a>
+      </div>
+      <br/>
       <Footer />
     </div>
   );

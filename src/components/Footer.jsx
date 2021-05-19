@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
     <div id="footerdiv">
-      <p>Check out our iOS app <a href="https://apps.apple.com/us/app/statistics-calculator-basic/id1535098606">here.</a></p>
+      <p>Text link <a href="https://google.com">here.</a></p>
       <p>Copyright ⓒ {year}</p>
     </div>
     </footer>

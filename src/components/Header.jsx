@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <header>
-        <h1 id="title">Statistics Calculator</h1>
+        <h1 id="title">Coin</h1>
     </header>
   );
 }
