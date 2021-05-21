@@ -6,7 +6,7 @@ import Header from './Header.jsx';
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Header fixed="top"/>
       <br/>
       <div id="wrapper">
         <a
