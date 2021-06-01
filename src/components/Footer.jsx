@@ -5,8 +5,7 @@ function Footer() {
   return (
     <footer>
     <div id="footerdiv">
-      <p>Text link <a href="https://google.com">here. </a>
-      Copyright ⓒ {year}</p>
+      <p>Copyright ⓒ {year}</p>
     </div>
     </footer>
   );

@@ -1,6 +1,7 @@
 .App {
   font-family: 'Roboto', sans-serif;;
   text-align: center;
+  background-color: #ebebeb
 }
 
 * {
@@ -25,6 +26,27 @@
 
 .mr-auto, .mx-auto {
   background-color: #343a40;
+}
+
+button {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+p {
+  padding: 0 5px 0 5px;
+}
+
+.input-group-prepend {
+  margin-left: 15px;
+}
+
+.form-control {
+  margin-right: 15px;
+}
+
+.boeyimg {
+  border-radius: 50%;
 }
 
 footer {
