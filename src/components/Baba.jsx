@@ -8,7 +8,7 @@ function Baba() {
     <div>
       <img src={logo} alt="BOEY Logo" className="boeyimg"></img>
       <br/>
-      <button type="button" className="btn btn-outline-primary" href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xae8cb2db90fb3bb3da5dd33a6dfb89a7ef3860d9" target="_blank" >Buy BabaBoey Coin on PancakeSwap</button>
+      <button type="button" className="btn btn-outline-primary" onClick={event =>  window.location.href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xae8cb2db90fb3bb3da5dd33a6dfb89a7ef3860d9'}>Buy BabaBoey Coin on PancakeSwap</button>
       <br/>
       <h2>Step 1: Create a Wallet</h2>
       <p>Download <a href="https://trustwallet.com/" rel="noreferrer" className="text-info" target="_blank">Trust Wallet</a> and create a wallet. Copy the address for Bababooey Coin below.</p>
